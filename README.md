@@ -32,4 +32,4 @@ T(n) = T(n/13^2) + 5 +5
 T(n/13^2)  = T(n/13/13^2) + 5
 T(n) + T(n/13^3) +5 +5+5
 T(n) = T(n/13^i) + 5i, i = log(base 3)n
-T(n) = T(1) + 5log(base3)n ∈ Θ(log(base3)n)
+T(n) = T(1) + 5log(base3)n ∈ Θ(logn)
