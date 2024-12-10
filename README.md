@@ -25,3 +25,11 @@ $$ T(n) =
         13 T\left(\frac{n}{13}\right) + 2n & n > 1
     \end{cases}
 $$
+
+1. T(n) = T(n/13) + 5
+T(n/13) + T(n/13/13) + 5
+T(n) = T(n/13^2) + 5 +5
+T(n/13^2)  = T(n/13/13^2) + 5
+T(n) + T(n/13^3) +5 +5+5
+T(n) = T(n/13^i) + 5i, i = log(base 3)n
+T(n) = T(1) + 5log(base3)n ∈ Θ(log(base3)n)
